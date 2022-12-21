@@ -3,7 +3,7 @@ var x= document.getElementById("myAudio");
 
 function new_image()
 {
-	fabric.Image.fromURL('BirthdayIMage.jpg', function(Img) {
+	fabric.Image.fromURL('BirthdayImage.jpg', function(Img) {
         block_img_object = Img;
 
         block_img_object.scaleToWidth(780);
